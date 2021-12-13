@@ -1,0 +1,31 @@
+{
+  "name": "nymer_back",
+  "version": "1.0.0",
+  "description": "Projeto Nymer's Back-End",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusprog777/Nymer_back.git"
+  },
+  "author": "Vinicius Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusprog777/Nymer_back/issues"
+  },
+  "homepage": "https://github.com/viniciusprog777/Nymer_back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.3",
+    "sequelize-cli": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
